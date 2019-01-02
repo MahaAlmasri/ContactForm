@@ -1,0 +1,404 @@
+@import url("http://fonts.googleapis.com/css?family=Bitter:400,700");
+
+.bg-image {
+	background-image: url("mijnFoto.jpg");
+    
+  /* Full height */
+  height: 180px; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+   background-size: auto;
+  position: relative;
+ 
+}
+  
+/*body { background:#010204 url('dreamcodes/bg_images/color/c13.jpg') no-repeat center top; }*/
+.container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  font-size: 20px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.grid
+{   
+	display: inline-grid ;
+    grid-template-columns: auto auto ;
+    grid-template-rows: auto auto ;
+	 
+	
+
+}
+.grid1
+{
+	display: grid ;
+    grid-template-columns: auto auto ;
+    grid-template-rows: auto auto auto auto auto auto auto auto auto auto auto;
+	 font: 200 15px 'Bitter';
+	
+
+}
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+input[type=email]{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+
+/* Hide the browser's default checkbox */
+.container input[type=checkbox] {
+  opacity: 0;
+  cursor: pointer;
+ 
+}
+h1 {
+   -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: white;
+   margin: 50px auto;
+	text-align: center;
+	text-shadow: -1px -1px 0px rgba(255,255,255,0.3), 1px 1px 0px rgba(0,0,0,0.8);
+	color: #333;
+	opacity: 0.4;
+	font: 700 80px 'Bitter';
+    
+}
+.download {
+  padding-left: 320px;
+    /*padding-bottom: 120px;*/
+
+  vertical-align: middle;
+
+}
+.item1 {
+		
+  /*text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff00de, 0 0 70px #ff00de, 0 0 80px #ff00de, 0 0 100px #ff00de, 0 0 150px #ff00de;*/
+  font-size: 60px;
+
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 1;
+  grid-row-end: 1;
+
+}
+.item2{
+
+  padding-left: 200px;
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 1;
+
+ 
+}
+.item3 {
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 2;
+  grid-row-end: 2;
+  
+   border-radius: 25px;
+  background: #e9667f ;
+  padding-left: 10px;
+}
+.item4 {
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 3;
+  grid-row-end: 3;
+   border-radius: 25px;
+  background: #a99498;
+  padding-left: 10px;
+   }
+.item5 {
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 2;
+  border-radius: 25px;
+  background: #e9667f;
+  padding-left: 10px;
+}
+.item6 {
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 3;
+  grid-row-end: 3;
+  border-radius: 25px;
+  background: #a99498;
+  padding-left: 10px;
+}
+.item7 {
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 4;
+  grid-row-end: 4;
+  border-radius: 25px;
+  background: #e9667f;
+  padding-left: 10px;
+}
+.item8 {
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 5;
+  grid-row-end: 5;
+  border-radius: 25px;
+  background: #a99498;
+  padding-left: 10px;
+}
+.item9 {
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 4;
+  grid-row-end: 4;
+  border-radius: 25px;
+  background: #e9667f;
+  padding-left: 10px;
+}
+.item10 {
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 5;
+  grid-row-end: 5;
+  border-radius: 25px;
+  background: #a99498;
+  padding-left: 10px;
+}
+.item11 {
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 6;
+  grid-row-end: 6;
+  border-radius: 25px;
+  background: #e9667f;
+  padding-left: 10px;
+}
+.item12 {
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 7;
+  grid-row-end: 7;
+  border-radius: 25px;
+  background: #a99498;
+  padding-left: 10px;
+}
+.item13{
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 6;
+  grid-row-end: 6;
+  border-radius: 25px;
+  background: #e9667f;
+  padding-left: 10px;
+}
+.item14 {
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 7;
+  grid-row-end: 7;
+  border-radius: 25px;
+  background: #a99498;
+  padding-left: 10px;
+}
+.item15 {
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 8;
+  grid-row-end: 8;
+  border-radius: 25px;
+  background: #e9667f;
+  padding-left: 10px;
+}
+.item16 {
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 9;
+  grid-row-end: 9;
+  border-radius: 25px;
+  background: #a99498;
+  padding-left: 10px;
+}
+.item17{
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 8;
+  grid-row-end: 8;
+  border-radius: 25px;
+  background: #e9667f;
+  padding-left: 10px;
+}
+.item18 {
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 9;
+  grid-row-end: 9;
+  border-radius: 25px;
+  background: #a99498;
+  padding-left: 10px;
+}
+.item19 {
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 10;
+  grid-row-end: 10;
+  border-radius: 25px;
+  background: #e9667f;
+  padding-left: 10px;
+}
+.item20 {
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 11;
+  grid-row-end: 11;
+  border-radius: 25px;
+  background: #a99498;
+  padding-left: 10px;
+}
+.item21 {
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 10;
+  grid-row-end: 10;
+  border-radius: 25px;
+  background: #e9667f;
+  padding-left: 10px;
+}
+.item22 {
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 11;
+  grid-row-end: 11;
+  border-radius: 25px;
+  background: #a99498;
+  padding-left: 10px;
+}
+/*
+.container input[type=radio] {
+ 
+  opacity: 0;
+  cursor: pointer;
+  
+}
+
+*/
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input[type=checkbox] ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.container input{type=checkbox}:checked ~ .checkmark {
+  background-color: #2196F3;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.container input[type=checkbox]:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.container .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.nav-item dropdown
+{ background-color:#333;
+border-top: 3px  solid #E41B17;
+min-width:200px;
+left:0;
+right:auto;
+}
+
+.dropdown
+{ background-color:#333;
+border-top: 3px  solid #E41B17;
+min-width:200px;
+left:0;
+right:auto;
+}
+
+
+.dropdown-item 
+{
+background-color:#333;
+color:#fff;
+padding: 6px 20px;
+-webkit-transition: padding 0.5s ease;
+-moz-transition: padding 0.5s ease;
+-o-transition: padding 0.5s ease;
+transition: padding 0.5s ease;
+}
+
+.dropdown-item:hover,
+.dropdown-item:focus
+{
+background-color:#E41B17;
+color:#FFF;
+padding-left: 30px;
+
+}
+ 
