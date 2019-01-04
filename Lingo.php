@@ -44,26 +44,34 @@ session_start();
         echo "<form method='POST'  action='" . $_SERVER['PHP_SELF']."'>";
         for ($i=1; $i<=$_SESSION["rows_count"];$i++)
         {    $temArray=$_SESSION["arrays"][$i];
-     
-        echo " <input type='text' name='a1' value=". $temArray[0]. "> ";
-        echo "<input type='text'   name='a2' value=". $temArray[1]. "> " ;
-        echo " <input type='text'  name='a3' value=". $temArray[2]. "> " ;
+        if ( $temArray[0]==$letters[0])
+        echo " <input type='text' name='a1' style='background-color:green' value=". $temArray[0]. "> ";
+        else
+        echo " <input type='text' name='a1' style='background-color:red' value=". $temArray[0]. "> ";
+        if ( $temArray[1]==$letters[1])
+        echo "<input type='text'   name='a2' style='background-color:green' value=". $temArray[1]. "> " ;
+        else
+        echo "<input type='text'   name='a2' style='background-color:red' value=". $temArray[1]. "> " ;
+        if ( $temArray[2]==$letters[2])
+        echo " <input type='text'  name='a3' style='background-color:green' value=". $temArray[2]. "> " ;
+        else
+        echo " <input type='text'  name='a3' style='background-color:red' value=". $temArray[2]. "> " ;
         echo "<br>";
         }
         if (($a1 != $letters[0])||($a2 != $letters[1])||($a3 != $letters[2]))
     {   
         if ($a1 == $letters[0])
-        echo " <input type='text' name='a1' value=". $temArray[0]. "> ";
+        echo " <input type='text' name='a1' style='background-color:green' value=". $temArray[0]. "> ";
         else 
-        echo " <input type='text' name='a1' >";
+        echo " <input type='text' name='a1' style='background-color:red'>";
         if ($a2==$letters[1])
-        echo "<input type='text'   name='a2' value=". $temArray[1]. "> " ;
+        echo "<input type='text'   name='a2' style='background-color:green' value=". $temArray[1]. "> " ;
         else
-        echo " <input type='text' name='a2' >";
+        echo " <input type='text' name='a2' style='background-color:red' >";
         if ($a3==$letters[2])
-        echo " <input type='text'  name='a3' value=". $temArray[2]. "> " ;
+        echo " <input type='text'  name='a3' style='background-color:green' value=". $temArray[2]. "> " ;
         else 
-        echo " <input type='text' name='a3' >";
+        echo " <input type='text' name='a3' style='background-color:red' >";
         echo "<br>";
       
     echo "<input type='submit' value='Result'>";
