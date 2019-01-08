@@ -1,0 +1,71 @@
+input[type=text]
+{
+height: 50px;
+width: 50px;
+border-radius: 50%;
+display: inline-block;
+font-family:'Bitter';
+text-align: center;
+color:rgb(0, 7, 0);
+}
+.button {
+    text-align: center;
+    display: inline-block;
+    height: 35px;
+    width: 35px;
+    font-size: 24px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 10px;
+    margin: 5px;
+    font-family:'Bitter';
+
+  }
+  
+.resultButton{
+text-align: center;
+font-family:'Bitter';
+display: inline-block;
+font-size: 24px;
+cursor: pointer;
+text-decoration: none;
+color: #fff;
+background-color: #4CAF50;
+border: none;
+border-radius: 10px;
+margin: 5px;
+}
+form {
+    text-align: center;
+}
+
+  .button:hover {background-color: #3e8e41}
+  
+  .button:active {
+    background-color: #3e8e41;
+    transform: translateY(4px);
+  }
+  h1 {
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+    margin: 50px auto;
+     text-align: center;
+     text-shadow: -1px -1px 0px rgba(15, 151, 22, 0.4), 1px 1px 0px rgba(250, 246, 246, 0.8);
+     color: rgb(7, 68, 10);
+     font: 700 80px 'Bitter';
+     
+ }
+ 
+ p{
+    color: rgb(7, 68, 10);
+     text-align: center;
+     font: 'Bitter';
+      
+ }
+  
+ body{
+     background-color: rgb(168, 250, 171);
+ }
